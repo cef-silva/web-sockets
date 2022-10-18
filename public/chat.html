@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+</head>
+<body>
+
+    <div class="container">
+        <button type="button" class="logout" id="logout">Logout</button>
+        <div id="username">
+            Olá username - Sala
+        </div>
+        <hr />
+        <div id="chat_content">
+            <div class="new_message">
+                <label class="form-label">
+                    <strong> Username </strong> <span> texto - 10/10 10:20</span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="chat.js"></script>
+</html>
